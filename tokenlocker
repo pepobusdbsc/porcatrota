@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Mudra Manager | Token Locker</title>
+  <meta content="Lock any BEP20 token instantly and affordably." name="description">
+  <meta content="Lock Token, Token Locker, BSC Token Lock, Team Vesting, Token Vesting" name="keywords">
+  <meta name="csrf-token" content="2Ub5zPliuLEzB1olxaJurdpgjmBt6R8q7DxIFNaJgf0aXm2VN5Gmxaw9YjWdPDah">
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-J60EMHH8EP"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-J60EMHH8EP');
+  </script>
+<!-- Hotjar Tracking Code for https://mudra.website -->
+<script>
+  (function(h,o,t,j,a,r){
+      h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+      h._hjSettings={hjid:2416712,hjsv:6};
+      a=o.getElementsByTagName('head')[0];
+      r=o.createElement('script');r.async=1;
+      r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+      a.appendChild(r);
+  })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+</script>
+
+
+  <!-- Favicons -->
+  <link href="/static/assets/img/favicon.4ba9f5c3dd62.png" rel="icon">
+  <link href="/static/assets/img/apple-touch-icon.39c991333afa.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+  <link rel="preload" as="font" href="/static/assets/vendor/icofont/fonts/icofont.50a4ab76e700.woff2" type="font/woff2" crossorigin="anonymous">
+
+  <!-- Vendor CSS Files -->
+  <link href="/static/assets/vendor/bootstrap/css/bootstrap.min.7cc40c199d12.css" rel="stylesheet">
+  <link href="/static/assets/vendor/icofont/icofont.min.134b8dae50ca.css" rel="stylesheet">
+  <link href="/static/assets/vendor/boxicons/css/boxicons.min.6305875d51a1.css" rel="stylesheet">
+  <link href="/static/assets/vendor/venobox/venobox.a4f15edaa0fa.css" rel="stylesheet">
+  <link href="/static/assets/vendor/owl.carousel/assets/owl.carousel.min.761bea69e4eb.css" rel="stylesheet">
+  <link href="/static/assets/vendor/aos/aos.847da8fca806.css" rel="stylesheet">
+  <link href="/static/assets/vendor/flatpickr/flatpickr.min.6e17f044632a.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="/static/assets/css/style.90fa2fd7c33e.css" %}" rel="stylesheet">
+  <!-- =======================================================
+  * Template Name: Scaffold - v2.0.0
+  * Template URL: https://bootstrapmade.com/scaffold-bootstrap-metro-style-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top">
+    <div class="container d-flex">
+
+      <div class="logo mr-auto">
+        
+        <!-- Uncomment below if you prefer to use an image logo -->
+        <a href="">
+          <img src="/static/assets/img/android-chrome.1ba133f86ebd.png" 
+          alt="Mudra Manager" class="img-fluid">
+          <h1 class="text-dark" 
+          style="display:inline;">
+            <span >Mudra Manager</span>
+          </h1>
+        </a>
+
+      </div>
+
+      <nav class="nav-menu d-none d-lg-block">
+        <ul>
+          <!--<li class="active"><a href="/">Home</a></li>-->
+          <!--
+          <li class="drop-down"><a href="">About</a>
+            <ul>
+              <li><a href="#about">About Us</a></li>
+              <li><a href="#team">Team</a></li>
+              <li><a href="#testimonials">Testimonials</a></li>
+              <li class="drop-down"><a href="#">Deep Drop Down</a>
+                <ul>
+                  <li><a href="#">Deep Drop Down 1</a></li>
+                  <li><a href="#">Deep Drop Down 2</a></li>
+                  <li><a href="#">Deep Drop Down 3</a></li>
+                  <li><a href="#">Deep Drop Down 4</a></li>
+                  <li><a href="#">Deep Drop Down 5</a></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          -->
+          <li><a href="/#services">Products</a></li>
+          <li><a href="/#features-research">Mudra Research</a></li>
+          <li><a href="/#features">Liquidity Locker</a></li>
+          <li><a href="/#features-discover">Mudra Discover</a></li>
+          <li><a target="_blank" href="https://pancakeswap.finance/swap?outputCurrency=0xd0C1d18f091B182B80f342C654280B9004c0b124">Buy Mudra</a></li>
+
+          <!--<li><a href="#contact">Contact</a></li>-->
+          <li><a href="/docs/">Docs</a></li>
+          <li><a target="_blank" href="https://medium.com/mudramanager">Blog</a></li>
+          <!--
+          
+          <li><a href="/login/">Connect Wallet</a></li>
+          
+          -->
+
+        </ul>
+      </nav><!-- .nav-menu -->
+
+      <!--  
+      <div class="header-social-links">
+        <a href="#" class="twitter"><i class="icofont-twitter"></i></a>
+        <a href="#" class="facebook"><i class="icofont-facebook"></i></a>
+        <a href="#" class="instagram"><i class="icofont-instagram"></i></a>
+        <a href="#" class="linkedin"><i class="icofont-linkedin"></i></i></a>
+      </div>
+      -->
+    </div>
+  </header><!-- End Header -->
+
+
+  <main id="main">
+
+  
+    <!-- ======= Features Section ======= -->
+   
+    <section id="features" class="features section-bg">
+      <div class="container">
+        <div class="section-title" data-aos="" style="margin-top: 20px;">
+          <h2>Mudra Token Locker</h2>
+          <p>Lock and Manage your BSC tokens securely. Featured in <a target="_blank" href="https://finance.yahoo.com/news/mudra-brings-liquidity-locking-platform-184600369.html">Yahoo! Finance</a> and trusted by 1000+ projects! <!--<a target="_blank" href ="/docs/tokenlocker.html">Learn more.</a>--></p>
+          <p>For locking liquidity tokens, please visit our <a target="_blank" href="/#features">Liquidity Locker </a></p>
+        </div> 
+        <center>
+        <div class="form-group row ">
+          <div class="col-lg-12">
+            <button class="btn btn-primary" id="newlock_connect_wallet">
+              Connect wallet
+            </button>
+            <h6 id="newlock_connect_wallet_msg" style="display:none">              
+            </h6>
+            <h6 id="newlock_connected_wallet" style="display:none">
+              Connected wallet: <span id="newlock_connected_wallet_address"></span>
+            </h6>
+          </div>
+        </div>
+      </center> 
+        <div class="row">
+          <div class="col-lg-3 mt-2 mb-tg-0 order-2 order-lg-1">
+            <ul class="nav nav-tabs flex-column">
+              <li class="nav-item" data-aos="">
+                <a class="nav-link active show" data-toggle="tab" href="#tab-1">
+                  <h4>Lock Tokens</h4>
+                </a>
+              </li>
+              <li class="nav-item mt-2" data-aos="" data-aos-delay="100">
+                <a class="nav-link" data-toggle="tab" href="#tab-2"  id="lock_manage_tab_link">
+                  <h4>Manage Token Locks</h4>
+                </a>
+              </li>
+              <li class="nav-item mt-2" data-aos="" data-aos-delay="100">
+                <a class="nav-link" data-toggle="tab" href="#browse-locks" >
+                  <h4>Browse All Locks</h4>
+                </a>
+              </li>
+
+              <li class="nav-item mt-2" data-aos="" data-aos-delay="100">
+                <a class="nav-link" data-toggle="tab" href="#certificate"  style="display:none">
+                  <h4>View Lock Certificate</h4>
+                </a>
+              </li>
+
+
+            </ul>
+          </div>
+          <div class="col-lg-8 order-1 order-lg-2" data-aos="">
+            <div class="tab-content">
+              <div class="tab-pane active show" id="tab-1">
+
+                <div class="form-group row ">
+                    <div class="col-lg-8">
+                        <input type="text" class="form-control" id="newlock_lpaddress" placeholder="Enter token address" disabled>
+                        
+                    </div>
+                    <div class="col-lg-4 text-left" style="bottom: -10px;">
+                      <h6>Token: 
+                        <span id="newlock_lptoken_info">
+                          --
+                        </span>
+                        <span id ="newlock_lptoken_info_spinner" style="display:none"
+                              class="spinner-border spinner-border-sm" 
+                              role="status" aria-hidden="true">
+                        </span>
+                      </h6>
+                    </div>
+                </div>
+                <div class="form-group row ">
+                  <div class="col-lg-8">
+                    <div class="input-group">
+                      <input type="text" class="form-control" id="newlock_amount" placeholder="Enter token amount to lock" disabled>
+                      <div class="input-group-append">
+                        <button class="btn btn-outline-secondary" type="button" id="newlock_lock_max_amount" disabled>Max</button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-4 text-left" style="bottom: -10px;">
+                    <h6>Available: 
+                      <span id="newlock_lptoken_balance_info">
+                        0
+                      </span>
+                    </h6>
+                  </div>
+                </div>
+                <div class="form-group row ">
+                  
+                  <div class="col-lg-8">
+                    <div class="input-group">
+                      <input type="text" class="form-control" id="newlock_unlocktime" placeholder="Enter token unlock time" disabled>
+                      <div class="input-group-append">
+                        <button class="btn btn-outline-secondary" type="button" id="newlock_unlocktime_now" disabled>Tomorrow</button>
+                        <button class="btn btn-outline-secondary" type="button" id="newlock_unlocktime_plus1" disabled>+1 Year</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="form-group row ">
+                  <div class="col-lg-8 text-left">
+                    <h6>Select fee type:</h6>
+                    <input type="radio" id="newlock_feeLP" name="newlock_fee" value="LP" disabled >
+                    <label for="newlock_feeLP"> Pay in Token <small>(.5 % of locked token)</small></label><br>
+                    <input type="radio" id="newlock_feeBNB" name="newlock_fee" value="BNB" checked disabled>
+                    <label for="newlock_feeBNB"> Pay in BNB <small> (.1 BNB flat)</small></label>
+                  </div>
+                </div>
+                <center>
+                  <div class="form-group row no-gutters" style="margin-bottom:5px;">
+                    <div class="col-lg-6" style="text-align:left">
+                      <h6><i class="icofont-check" style="font-size: 30px;color:green"></i> Works with Rebase Tokens</h6>
+                    </div>
+                    <div class="col-lg-6" style="text-align:left">
+                      <h6><i class="icofont-check" style="font-size: 30px;color:green"></i> Works with Reflection Tokens</h6>
+                    </div>
+                  </div>
+                  <div class="form-group row no-gutters">
+                    <div class="col-lg-6" style="text-align:left">  
+                      <h6><i class="icofont-check" style="font-size: 30px;color:green"></i> Claim your Reward Tokens at any time</h6>
+                    </div>
+                    <div class="col-lg-6" style="text-align:left">
+                      <h6><i class="icofont-check" style="font-size: 30px;color:green"></i> Lowest Fee</h6>
+                    </div>
+                  </div>
+                  </center>
+                <div class="form-group row ">
+                  <div class="col-lg-8">
+                      <center>
+                      <span id ="newlock_result_info">
+                      </span>
+                    </center>
+                  </div>
+              </div>
+                <div class="form-group row ">
+                    <div class="col-lg-4">
+                      <button class="btn btn-primary" id="newlock_lockbutton_approve" style="margin-bottom: 5px;" disabled>
+                        <span>Approve Tokens</span>
+                        <span id ="newlock_lockbutton_approve_spinner" style="display:none"
+                        class="spinner-border spinner-border-sm" role="status" 
+                        aria-hidden="true">
+                        </span>
+                      </button>
+                    </div>
+
+                    <div class="col-lg-3">
+                      <button class="btn btn-primary" id="newlock_lockbutton" disabled>
+                        Lock Tokens
+                        <span id ="newlock_lockbutton_spinner" style="display:none"
+                        class="spinner-border spinner-border-sm" role="status" 
+                        aria-hidden="true">
+                        </span>
+                      </button>
+                    </div>
+                </div>
+             
+
+              </div>
+              <div class="tab-pane" id="tab-2">
+                <div class="form-group row ">
+                <div class="col-lg-3 offset-lg-4">
+                <span id ="managelock_spinner" style="display:none"
+                  class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
+                </div>
+              </div>
+                
+                <ul class="lock-list text-left" id="lock-list">
+      
+                </ul>
+                
+              </div>
+            
+            
+            
+            
+            <div class="tab-pane" id="certificate" style="background-color:#FFFFFF;">
+              <div class="form-group row ">
+                <div class="col-lg-12">
+                  <center>
+                  <i class="icofont-certificate" style="font-size: 50px;"></i> 
+                  <b>Mudra Lock Certificate</b>
+                  <span id ="lock_certificate_spinner" style="display:block"
+                  class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
+                  </center>
+                 </div>
+              </div>
+              <br>
+              
+              <div class="form-group row ">
+                <div class="col-lg-12">
+                <center>
+                  <a target="_blank" href="" id="lock_certificate_lptoken">Token </a>:
+                  <b><a target="_blank" href="" id="lock_certificate_token0"><span >--</span></a></b>
+                </center>
+                </div>
+              </div>
+              
+              <div class="form-group row ">
+                <div class="col-lg-12">
+                  <center>
+                   <div id="lock_certificate_lockpercent" class="progress red"> 
+                     <span class="progress-left"> <span class="progress-bar"></span> 
+                      </span> <span class="progress-right"> 
+                        <span class="progress-bar"></span> 
+                      </span>
+                      <div class="progress-value">0%</div>
+                  </div>
+                </center>
+                </div>
+                <div class="col-lg-12">
+                <center>
+                  <div id="lock_certificate_status">
+                    <i class="icofont-ui-unlock" style="font-size: 30px;"></i> 
+                    Token Unlocked
+                  </div>
+                  </center>
+                </div>
+              </div>
+            
+              <div class="form-group row text-left">
+                <div class="col-lg-12">
+                <center> 
+                  Locked tokens:&nbsp;<span id="lock_certificate_lockamount">---</span>
+                </center>
+                </div>
+                <div class="col-lg-12">
+                  <center>
+                  Total tokens:&nbsp;<span id="lock_certificate_totalamount">---</span>
+                </center>
+                </div>
+                <div class="col-lg-12">
+                  <center>
+                  Unlock Schedule:&nbsp;<span id="lock_certificate_unlocktime"  style="list-style: none" >--</span>
+                </center>
+                </div>
+              </div>
+              <center>
+              <div class="form-group row ">
+                <div class="col-lg-4 offset-lg-4" id="certificate_qrcode">                
+                </div>
+              </div>
+            </center>
+            </div>
+            
+            <div class="tab-pane" id="browse-locks">
+              <div class="form-group row ">
+                <div class="col-lg-3 offset-lg-4">
+                <span id ="browselock_spinner" style="display:none"
+                  class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
+                </div>
+              </div>
+              <ul class="text-left" id="browse-locks-list" style="list-style: none">
+                <li>No Locks Available</li>
+              </ul>             
+
+            </div>
+
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Features Section -->
+    <section id="contact" class="contact">
+      <div class="container">
+
+        <div class="section-title" data-aos="">
+          <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#contact-form">Contact us!</button>
+          
+        </div>
+
+        <div id="contact-form" class="row collapse">
+          <div class="col-lg-1"></div>
+          <div class="col-lg-10 mt-5 mt-lg-0 d-flex align-items-stretch" data-aos="fade-left">
+            <form action="/api/contact/" method="post" role="form" class="php-email-form"><input type="hidden" name="csrfmiddlewaretoken" value="2Ub5zPliuLEzB1olxaJurdpgjmBt6R8q7DxIFNaJgf0aXm2VN5Gmxaw9YjWdPDah">
+              <div class="form-row">
+                <div class="form-group col-md-6">
+                  <label for="name">Your Name</label>
+                  <input type="text" name="name" class="form-control" id="name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                  <div class="validate"></div>
+                </div>
+                <div class="form-group col-md-6">
+                  <label for="name">Your Email</label>
+                  <input type="email" class="form-control" name="email" id="email" data-rule="email" data-msg="Please enter a valid email" />
+                  <div class="validate"></div>
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="name">Subject</label>
+                <input type="text" class="form-control" name="subject" id="subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                <div class="validate"></div>
+              </div>
+              <div class="form-group">
+                <label for="name">Message</label>
+                <textarea class="form-control" name="message" rows="10" data-rule="required" data-msg="Please write something for us"></textarea>
+                <div class="validate"></div>
+              </div>
+              <div class="mb-3">
+                <div class="loading">Loading</div>
+                <div class="error-message"></div>
+                <div class="sent-message">Your message has been sent. Thank you!</div>
+              </div>
+              <div class="text-center"><button type="submit">Send Message</button></div>
+            </form>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Contact Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <!--
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6">
+            <div class="footer-info">
+              <h3>Mudra</h3>
+              <p>
+                A108 Adam Street <br>
+                NY 535022, USA<br><br>
+                <strong>Phone:</strong> +1 5589 55488 55<br>
+                <strong>Email:</strong> info@example.com<br>
+              </p>
+              <div class="social-links mt-3">
+                <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+                <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+                <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+                <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
+                <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-md-6 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Services</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Our Services</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Web Design</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Web Development</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Product Management</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Marketing</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Graphic Design</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-4 col-md-6 footer-newsletter">
+            <h4>Our Newsletter</h4>
+            <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
+            <form action="" method="post">
+              <input type="email" name="email"><input type="submit" value="Subscribe">
+            </form>
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+    -->
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong><span>Mudra</span></strong>. All Rights Reserved
+      </div>
+      <center><a target="_blank" href="/terms">Terms and Conditions</a></div></center>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/scaffold-bootstrap-metro-style-template/ -->
+        Designed by <a target="_blank" href="https://bootstrapmade.com/">BootstrapMade</a><br/>
+        Powered by <a target="_blank" href="https://bscscan.com/">BscScan.com</a> APIs
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+  <a href="#" class="back-to-top"><i class="bx bxs-up-arrow-alt"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="/static/assets/vendor/jquery/jquery.min.220afd743d9e.js"></script>
+  <script src="/static/assets/vendor/bootstrap/js/bootstrap.bundle.min.a5334e475209.js"></script>
+  <script src="/static/assets/vendor/jquery.easing/jquery.easing.min.e2d41e5c8fed.js"></script>
+  <script src="/static/assets/vendor/php-email-form/validate.c2e1a2a563b2.js"></script>
+  <script src="/static/assets/vendor/isotope-layout/isotope.pkgd.min.2afcff647ed2.js"></script>
+  <script src="/static/assets/vendor/venobox/venobox.min.083009f7b27d.js"></script>
+  <script src="/static/assets/vendor/owl.carousel/owl.carousel.min.f416f9031fef.js"></script>
+  <script src="/static/assets/vendor/aos/aos.d3718e34eeb0.js"></script>
+  <script src="/static/assets/vendor/web3/web3.min.8ffb05b9bc49.js"></script>
+  <script src="/static/assets/vendor/web3modal/index.aac4569bbff2.js"></script>
+  <script src="/static/assets/vendor/flatpickr/flatpickr.38b5005544b4.js"></script>
+  <script src="/static/assets/vendor/evm-chains/index.min.103cf7a3766e.js"></script>
+  <script src="/static/assets/vendor/keyframes/keyframes.min.ab7f6a43dd13.js"></script>
+  <script src="/static/assets/vendor/moment/moment.min.5c158b940513.js"></script>
+  <script src="/static/assets/vendor/walletconnect/web3provider.min.2f6e238e8a18.js"></script>
+  <script src="/static/assets/vendor/qrcode/qrcode.min.517b55d3688c.js"></script>
+  <script src="/static/assets/vendor/solidity-parser/index.iife.df2b1a541751.js"></script>
+  <script src="/static/assets/vendor/lodash/lodash.min.94feac6cd198.js"></script>
+
+
+  <!-- Template Main JS File -->
+
+  
+  <script src="/static/CACHE/js/output.3db1a97bdffd.js"></script>
+
+
+
+  
+  <script>
+
+    $.ajaxPrefilter(function(options, originalOptions, jqXHR){
+    if (options.type.toLowerCase() === "post") {
+      jqXHR.setRequestHeader('X-CSRFToken', $('meta[name="csrf-token"]').attr('content'));
+    }
+  });
+
+  </script>
+  
+
+</body>
+
+</html>
